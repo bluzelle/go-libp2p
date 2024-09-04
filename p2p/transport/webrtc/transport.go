@@ -25,7 +25,7 @@ import (
 	"net"
 	"time"
 
-	mrand "golang.org/x/exp/rand"
+	mrand "github.com/bluzelle/go-exp/rand"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/libp2p/go-libp2p/core/connmgr"

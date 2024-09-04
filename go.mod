@@ -6,6 +6,7 @@ retract v0.26.1 // Tag was applied incorrectly due to a bug in the release workf
 
 require (
 	github.com/benbjohnson/clock v1.3.5
+	github.com/bluzelle/go-exp v0.0.2
 	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0
 	github.com/flynn/noise v1.1.0
@@ -59,7 +60,6 @@ require (
 	go.uber.org/goleak v1.3.0
 	go.uber.org/mock v0.4.0
 	golang.org/x/crypto v0.23.0
-	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
 	golang.org/x/sync v0.7.0
 	golang.org/x/sys v0.20.0
 	golang.org/x/tools v0.21.0
@@ -120,6 +120,7 @@ require (
 	go.uber.org/dig v1.17.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
+	golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 // indirect
 	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
